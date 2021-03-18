@@ -1,7 +1,5 @@
-# Author: Nick Wilder
-# Date: 03/18/2021
-
-## Execution
+## Author: Nick Wilder
+### Execution
 Using Node Packet Manager @ [link](https://www.npmjs.com/)
 
 Using a json-server to create a mock database to simulate data @ [link](https://www.npmjs.com/package/json-server)
@@ -20,6 +18,6 @@ Open a new console -> execute the following bash to cmd to start the json-server
 npm run server
 ```
 
-## Notes
+### Notes
 This application is a ReactJs Application, using Axios to access a JSON database.
 Project is current in works and is not currently fully completed
