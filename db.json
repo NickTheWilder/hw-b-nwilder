@@ -1,0 +1,64 @@
+{
+  "stops": [
+      {
+        "id": 1,
+        "route1_time": "12:00",
+        "route2_time": "12:02",
+        "route3_time": "12:04"
+      },
+      {
+        "id": 2,
+        "route1_time": "12:02",
+        "route2_time": "12:04",
+        "route3_time": "12:06"
+      },
+      {
+        "id": 3,
+        "route1_time": "12:06",
+        "route2_time": "12:08",
+        "route3_time": "12:10"
+      },
+      {
+        "id": 4,
+        "route1_time": "12:08",
+        "route2_time": "12:10",
+        "route3_time": "12:12"
+      },
+      {
+        "id": 5,
+        "route1_time": "12:10",
+        "route2_time": "12:12",
+        "route3_time": "12:14"
+      },
+      {
+        "id": 6,
+        "route1_time": "12:12",
+        "route2_time": "12:14",
+        "route3_time": "12:16"
+      },
+      {
+        "id": 7,
+        "route1_time": "12:14",
+        "route2_time": "12:16",
+        "route3_time": "12:18"
+      },
+      {
+        "id": 8,
+        "route1_time": "12:16",
+        "route2_time": "12:18",
+        "route3_time": "12:20"
+      },
+      {
+        "id": 9,
+        "route1_time": "12:18",
+        "route2_time": "12:20",
+        "route3_time": "12:22"
+      },
+      {
+        "id": 10,
+        "route1_time": "12:20",
+        "route2_time": "12:22",
+        "route3_time": "12:24"
+      }
+  ]
+}
