@@ -3,6 +3,7 @@
 
 ## Execution
 Using Node Packet Manager @ [link](https://www.npmjs.com/)
+
 Using a json-server to create a mock database to simulate data @ [link](https://www.npmjs.com/package/json-server)
 
 Script has been created to run the server-side of the application
