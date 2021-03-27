@@ -1,31 +1,25 @@
 import axios from 'axios'
 import { Component } from 'react';
-import { Table, Button } from 'reactstrap'
+import { Table } from 'reactstrap'
 
 class App extends Component {
 
   state = {
     routes: [],
-
-    editRouteData:{
-      id: '',
-      route1_time: '',
-      route2_time: ''
-    },
   }
-
-
   //Acccessing Data
   componentWillMount(){
     this._refreshRoutes();
   }
 
+  //Getting Date and Time
   componentDidMount() {
     setInterval(() => {
       this.setState({
         timeHour: new Date().getHours().toLocaleString(),
         timeMin : new Date().getMinutes().toLocaleString(),
       })
+      this.getArrivalTimes(this.timeHour, this.timeMin);
     }, 1000)
   }
 
@@ -37,27 +31,16 @@ class App extends Component {
         })
     });
   }
-  
-  //Editing the route
-  editRoute(id, route1_time, route2_time){
-    this.setState({
-      editRouteData: {id, route1_time, route2_time}
-    })
-  }
-  //*****************************************//
-  getArrivalTimes(){
-    //LOGIC TO PULL EACH TIME GOES HERE
-  }
-  //*****************************************//
- 
-  updateRoute(){
-    let{ route1_time, route2_time } = this.state.editRouteData
 
-    axios.put('http://localhost:5000/routes' + this.state.editRouteData, {
-      route1_time, route2_time
-    }).then((response) => {
-        this._refreshRoutes();
-    })
+  getArrivalTimes(timeHour, timeMin){
+    /**
+     * TODO: 1. Get the current time
+     * 2. Subtract the current time from the Routes 1, 2, & 3 and their current destination time - this gives the arrival times
+     * 3. Return the time remaining back to the table
+     * 
+     * Logic Notes:
+     * Every 3 hours the Routes reset/makes a loop
+     */
   }
 
   ///Start MAIN HTML
@@ -69,6 +52,7 @@ class App extends Component {
               <td>{route.id}</td>
               <td>{route.route1_time}</td>
               <td>{route.route2_time}</td>
+              <td>{route.route3_time}</td>
             </tr>
           )
     });
@@ -77,6 +61,8 @@ class App extends Component {
     return (
       <div className="container">
         <p> Current Time: { this.state.timeHour }:{ this.state.timeMin }</p>
+        <p>Stop 1: Route 1 in XX{} minutes</p>
+        <p>Stop 2: </p>
         <Table>
             <thead>
               <tr>
@@ -89,6 +75,9 @@ class App extends Component {
                 <th>
                   Route 2 Time
                 </th> 
+                <th>
+                  Route 3 Time
+                </th>
               </tr>
             </thead>
 

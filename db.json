@@ -3,62 +3,62 @@
       {
         "id": 1,
         "route1_time": "12:00",
-        "route2_time": "12:02",
-        "route3_time": "12:04"
+        "route2_time": "12:15",
+        "route3_time": "12:30"
       },
       {
         "id": 2,
         "route1_time": "12:02",
-        "route2_time": "12:04",
-        "route3_time": "12:06"
+        "route2_time": "12:17",
+        "route3_time": "12:32"
       },
       {
         "id": 3,
-        "route1_time": "12:06",
-        "route2_time": "12:08",
-        "route3_time": "12:10"
+        "route1_time": "12:04",
+        "route2_time": "12:19",
+        "route3_time": "12:34"
       },
       {
         "id": 4,
-        "route1_time": "12:08",
-        "route2_time": "12:10",
-        "route3_time": "12:12"
+        "route1_time": "12:06",
+        "route2_time": "12:21",
+        "route3_time": "12:36"
       },
       {
         "id": 5,
-        "route1_time": "12:10",
-        "route2_time": "12:12",
-        "route3_time": "12:14"
+        "route1_time": "12:08",
+        "route2_time": "12:23",
+        "route3_time": "12:38"
       },
       {
         "id": 6,
-        "route1_time": "12:12",
-        "route2_time": "12:14",
-        "route3_time": "12:16"
+        "route1_time": "12:10",
+        "route2_time": "12:25",
+        "route3_time": "12:40"
       },
       {
         "id": 7,
-        "route1_time": "12:14",
-        "route2_time": "12:16",
-        "route3_time": "12:18"
+        "route1_time": "12:12",
+        "route2_time": "12:27",
+        "route3_time": "12:42"
       },
       {
         "id": 8,
-        "route1_time": "12:16",
-        "route2_time": "12:18",
-        "route3_time": "12:20"
+        "route1_time": "12:14",
+        "route2_time": "12:29",
+        "route3_time": "12:44"
       },
       {
         "id": 9,
-        "route1_time": "12:18",
-        "route2_time": "12:20",
-        "route3_time": "12:22"
+        "route1_time": "12:16",
+        "route2_time": "12:31",
+        "route3_time": "12:46"
       },
       {
         "id": 10,
-        "route1_time": "12:20",
-        "route2_time": "12:22",
-        "route3_time": "12:24"
+        "route1_time": "12:18",
+        "route2_time": "12:33",
+        "route3_time": "12:48"
       }
   ]
 }
