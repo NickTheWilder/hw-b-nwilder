@@ -32,8 +32,13 @@ class App extends Component {
     });
   }
 
-  getArrivalTimes(timeHour, timeMin){
+  getArrivalTimes(timeHour, timeMin, stopID){
     /**
+     * Variables passed in
+     * - timeHour: Current hour based on Date()
+     * - timeMin: Currnet minutes based on Date()
+     * - stopID: ID of stop to be returned
+     * 
      * TODO: 1. Get the current time
      * 2. Subtract the current time from the Routes 1, 2, & 3 and their current destination time - this gives the arrival times
      * 3. Return the time remaining back to the table
@@ -80,7 +85,6 @@ class App extends Component {
                 </th>
               </tr>
             </thead>
-
             <tbody>
               {routes}
             </tbody>
