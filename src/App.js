@@ -66,8 +66,8 @@ class App extends Component {
     return (
       <div className="container">
         <p> Current Time: { this.state.timeHour }:{ this.state.timeMin }</p>
-        <p>Stop 1: Route 1 in XX{} minutes</p>
-        <p>Stop 2: </p>
+        <p>Stop 1: Route 1 in XX{} minutes. Route 2 in XX{} minutes.</p>
+        <p>Stop 2: Route 1 in XX{} minutes. Route 2 in XX{} minutes.</p>
         <Table>
             <thead>
               <tr>
